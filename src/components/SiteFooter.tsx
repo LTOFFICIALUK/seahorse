@@ -15,6 +15,8 @@ const SiteFooter: React.FC = () => {
         <div className="order-1 sm:order-2 flex items-center gap-5">
           <a
             href="https://discord.gg/wnT6eE24Uq"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Discord"
             tabIndex={0}
             className="transition-opacity hover:opacity-80"
@@ -23,6 +25,8 @@ const SiteFooter: React.FC = () => {
           </a>
           <a
             href="https://x.com/i/communities/1954012327235530906"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="X"
             tabIndex={0}
             className="transition-opacity hover:opacity-80"
@@ -31,6 +35,8 @@ const SiteFooter: React.FC = () => {
           </a>
           <a
             href="https://t.me/seahorseshaman"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Telegram"
             tabIndex={0}
             className="transition-opacity hover:opacity-80"
@@ -39,6 +45,8 @@ const SiteFooter: React.FC = () => {
           </a>
           <a
             href="https://kick.com/andrewshaman"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Kick"
             tabIndex={0}
             className="transition-opacity hover:opacity-80"

@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Link from 'next/link'
 import SiteFooter from '../components/SiteFooter'
+import ScrollBackgroundEffect from '../components/ScrollBackgroundEffect'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <ScrollBackgroundEffect />
         <header className="sticky top-0 z-50 w-full bg-seagreen-800/95 text-white shadow">
           <div className="container-screen flex h-14 sm:h-16 items-center justify-between">
             <Link href="/" className="font-bold tracking-tight text-base sm:text-lg md:text-xl lg:text-2xl flex-shrink-0" aria-label="$SEAHORSE home">

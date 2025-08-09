@@ -3,8 +3,15 @@
 @tailwind utilities;
 
 /* Reset and base theme using Tailwind utilities via @apply */
-html, body, :root { height: 100%; }
-body { @apply bg-seagreen-100 text-gray-900 antialiased; }
+html, body, :root { 
+  height: 100%; 
+  --scroll-progress: 0;
+}
+
+body { 
+  @apply text-gray-900 antialiased; 
+  transition: background-color 0.1s ease-out;
+}
 
 /* Utility containers */
 .container-screen { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }

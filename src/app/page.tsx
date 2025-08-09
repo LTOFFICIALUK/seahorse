@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main id="home" className="min-h-screen pb-24">
       <section className="container-screen flex flex-col items-center pt-16 text-center">
-        <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-seagreen-900">$SEAHORSE</h1>
+        <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-white">$SEAHORSE</h1>
 
         {/* Circular hero media using the mp4 from public/ */}
         <div className="mt-8 h-60 w-60 sm:h-72 sm:w-72 overflow-hidden rounded-full ring-4 ring-white/60 shadow-lg">
@@ -42,7 +42,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="mt-6 flex items-center gap-6 text-seagreen-900">
+        <div className="mt-6 flex items-center gap-6 text-white">
           <Link href="https://discord.gg/wnT6eE24Uq" target="_blank" rel="noopener noreferrer" aria-label="Discord" tabIndex={0} className="transition-opacity hover:opacity-75"><FaDiscord className="h-6 w-6" /></Link>
           <Link href="https://x.com/i/communities/1954012327235530906" target="_blank" rel="noopener noreferrer" aria-label="X" tabIndex={0} className="transition-opacity hover:opacity-75"><FaXTwitter className="h-6 w-6" /></Link>
           <Link href="https://t.me/seahorseshaman" target="_blank" rel="noopener noreferrer" aria-label="Telegram" tabIndex={0} className="transition-opacity hover:opacity-75"><FaTelegram className="h-6 w-6" /></Link>
