@@ -7,28 +7,17 @@ import WelcomeCard from '../components/WelcomeCard'
 import MeetTheDev from '../components/MeetTheDev'
 import TwitchPlayer from '../components/TwitchPlayer'
 import CopyableCA from '../components/CopyableCA'
+import ResponsiveSeahorseMedia from '../components/ResponsiveSeahorseMedia'
 
 export default function Home() {
   return (
     <main id="home" className="min-h-screen pb-8">
       <section className="container-screen flex flex-col items-center pt-16 text-center">
-        <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-white">$SEAHORSE</h1>
+        <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-seagreen-900">$SEAHORSE</h1>
 
-        {/* Circular hero media using the mp4 from public/ */}
+        {/* Circular hero media - responsive video/gif */}
         <div className="mt-8 h-60 w-60 sm:h-72 sm:w-72 overflow-hidden rounded-full ring-4 ring-white/60 shadow-lg">
-          <video
-            className="h-full w-full object-cover"
-            src="/seahorse_visualization.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-            controls={false}
-            disablePictureInPicture
-            preload="auto"
-            style={{ WebkitPlaysinline: true }}
-            aria-label="Seahorse animation"
-          />
+          <ResponsiveSeahorseMedia />
         </div>
 
         <CopyableCA value="FFrMkJW5UXWTdGcYZCQdbQipt5cPMeHxgCRbWXAqBAGS" />
