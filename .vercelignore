@@ -1,0 +1,12 @@
+node_modules
+.git
+scripts
+**/*.map
+**/*.md
+**/*.log
+**/*.psd
+**/*.ai
+**/*.sketch
+**/*.xcf
+**/*.zip
+**/*.rar
