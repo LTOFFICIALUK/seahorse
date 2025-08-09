@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: '$SEAHORSE on BagsApp',
   description: 'The official $SEAHORSE on BagsApp site',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
