@@ -1,12 +1,2 @@
-node_modules
+# Keep this file minimal to avoid micromatch recursion issues during tracing
 .git
-scripts
-**/*.map
-**/*.md
-**/*.log
-**/*.psd
-**/*.ai
-**/*.sketch
-**/*.xcf
-**/*.zip
-**/*.rar
