@@ -79,9 +79,9 @@ export const WelcomeCard: React.FC<WelcomeCardProps> = ({ id = 'lore' }) => {
               isn’t just a token—it's a movement. Are you ready to ride the tide?
             </p>
             <div className="mt-4 flex items-center justify-center gap-6 text-seagreen-900">
-              <Link href="#" aria-label="Discord" tabIndex={0} className="transition-opacity hover:opacity-75"><FaDiscord className="h-6 w-6" /></Link>
-              <Link href="#" aria-label="X" tabIndex={0} className="transition-opacity hover:opacity-75"><FaXTwitter className="h-6 w-6" /></Link>
-              <Link href="#" aria-label="Telegram" tabIndex={0} className="transition-opacity hover:opacity-75"><FaTelegram className="h-6 w-6" /></Link>
+              <Link href="https://discord.gg/wnT6eE24Uq" target="_blank" rel="noopener noreferrer" aria-label="Discord" tabIndex={0} className="transition-opacity hover:opacity-75"><FaDiscord className="h-6 w-6" /></Link>
+              <Link href="https://x.com/Seahorse_Coin" target="_blank" rel="noopener noreferrer" aria-label="X" tabIndex={0} className="transition-opacity hover:opacity-75"><FaXTwitter className="h-6 w-6" /></Link>
+              <Link href="https://t.me/seahorseshaman" target="_blank" rel="noopener noreferrer" aria-label="Telegram" tabIndex={0} className="transition-opacity hover:opacity-75"><FaTelegram className="h-6 w-6" /></Link>
             </div>
           </div>
 

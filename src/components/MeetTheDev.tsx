@@ -12,8 +12,8 @@ const MeetTheDev: React.FC<MeetTheDevProps> = ({ id = 'about' }) => {
           <div className="flex flex-col space-y-3 sm:space-y-4">
             <h3 className="text-2xl sm:text-3xl font-bold text-seagreen-900">Meet the Dev</h3>
             <p className="text-seagreen-900/90 leading-relaxed">
-              Andrew Shaman is a veteran streamer, comedian, and $Seahorse developer. For over a decade, he’s built
-              genuine connections while living on a couch at a friend’s house. Andrew merges his passion for streaming
+              Andrew Shaman is a veteran streamer, comedian, and $SEAHORSE developer. For over a decade, he's built
+              genuine connections while living on a couch at a friend's house. Andrew merges his passion for streaming
               with blockchain innovation, never forgetting the supporters who shaped his journey. He proves that real
               community transcends the screen.
             </p>

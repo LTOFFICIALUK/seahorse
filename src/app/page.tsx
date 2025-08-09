@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main id="home" className="min-h-screen pb-24">
       <section className="container-screen flex flex-col items-center pt-16 text-center">
-        <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-seagreen-900">$seahorse</h1>
+        <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-seagreen-900">$SEAHORSE</h1>
 
         {/* Circular hero media using the mp4 from public/ */}
         <div className="mt-8 h-60 w-60 sm:h-72 sm:w-72 overflow-hidden rounded-full ring-4 ring-white/60 shadow-lg">
@@ -32,10 +32,10 @@ export default function Home() {
         <div className="mt-6 flex items-center gap-4">
           <button
             className="inline-flex items-center gap-2 rounded-full bg-seagreen-700 px-4 py-2 text-white font-semibold shadow hover:bg-seagreen-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-seagreen-400"
-            aria-label="Buy $Seahorse"
+            aria-label="Buy $SEAHORSE"
           >
             <Image src="/jupiter-ag-jup-logo.png" alt="Jupiter logo" width={20} height={20} className="h-5 w-5 rounded" />
-            Buy $Seahorse
+            Buy $SEAHORSE
           </button>
         </div>
 

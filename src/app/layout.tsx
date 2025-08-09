@@ -7,8 +7,8 @@ import SiteFooter from '../components/SiteFooter'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: '$seahorse',
-  description: 'The official $seahorse site',
+  title: '$SEAHORSE on BagsApp',
+  description: 'The official $SEAHORSE on BagsApp site',
 }
 
 export default function RootLayout({
@@ -21,8 +21,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <header className="sticky top-0 z-50 w-full bg-seagreen-800/95 text-white shadow">
           <div className="container-screen flex h-14 sm:h-16 items-center justify-between">
-            <Link href="/" className="font-bold tracking-tight text-xl sm:text-2xl" aria-label="$seahorse home">
-              $seahorse
+            <Link href="/" className="font-bold tracking-tight text-xl sm:text-2xl" aria-label="$SEAHORSE home">
+              $SEAHORSE
             </Link>
             <nav className="flex items-center gap-6 text-sm sm:text-base">
               <Link href="#home" className="hover:underline underline-offset-4">Home</Link>
