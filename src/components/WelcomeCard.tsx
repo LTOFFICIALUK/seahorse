@@ -48,7 +48,7 @@ export const WelcomeCard: React.FC<WelcomeCardProps> = ({ id = 'lore' }) => {
           <div className="text-center">
             <h3 className="text-2xl font-bold text-seagreen-900">🌊 The Birth of Seahorse Coin</h3>
             <p className="mx-auto mt-2 max-w-prose leading-relaxed">
-              Legend says Andrew Shaman looked at a seahorse and thought, <em>"Why not turn this into a token?" </em>
+              Legend says Andrew Shaman looked at a seahorse and thought, <em>&quot;Why not turn this into a token?&quot; </em>
               Thus, the Seahorse Meme Coin emerged, powered by Solana and fueled by a dream: bringing meme
               enthusiasts and crypto lovers together.
             </p>
@@ -67,7 +67,7 @@ export const WelcomeCard: React.FC<WelcomeCardProps> = ({ id = 'lore' }) => {
             <h3 className="text-2xl font-bold text-seagreen-900">🚀 The Golden Seahorse Moment</h3>
             <p className="mx-auto mt-2 max-w-prose leading-relaxed">
               In December 2024, Seahorse Meme Coin made waves, reaching an all-time high of <strong>$0.0191</strong>.
-              This didn't go unnoticed by the community, and by August 2025, a community member relaunched <strong>$SEAHORSE</strong> on 
+              This didn&#39;t go unnoticed by the community, and by August 2025, a community member relaunched <strong>$SEAHORSE</strong> on 
               BagsApp so that Andrew could finally claim fees for his efforts.
             </p>
           </div>
@@ -76,7 +76,7 @@ export const WelcomeCard: React.FC<WelcomeCardProps> = ({ id = 'lore' }) => {
             <h3 className="text-2xl font-bold text-seagreen-900">🐴💧 Join the Lagoon Gang</h3>
             <p className="mx-auto mt-2 max-w-prose leading-relaxed">
               Don your fins and join the meme‑powered revolution. With Andrew Shaman at the helm, the Seahorse Meme Coin
-              isn’t just a token—it's a movement. Are you ready to ride the tide?
+              isn&#39;t just a token—it&#39;s a movement. Are you ready to ride the tide?
             </p>
             <div className="mt-4 flex items-center justify-center gap-6 text-seagreen-900">
               <Link href="https://discord.gg/wnT6eE24Uq" target="_blank" rel="noopener noreferrer" aria-label="Discord" tabIndex={0} className="transition-opacity hover:opacity-75"><FaDiscord className="h-6 w-6" /></Link>
