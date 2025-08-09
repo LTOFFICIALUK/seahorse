@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
   eslint: {
     // Build should not fail on lint warnings in CI
     ignoreDuringBuilds: true,
