@@ -29,7 +29,7 @@ export default function RootLayout({
               <Link href="#lore" className="hover:underline underline-offset-4">The Lore</Link>
               <Link href="#about" className="hover:underline underline-offset-4">About Dev</Link>
               <Link href="#live" className="hover:underline underline-offset-4">LIVE</Link>
-              <Link href="#dex" className="rounded-full bg-white/10 px-3 py-1.5 text-white ring-1 ring-white/20 hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white" aria-label="Dex button" tabIndex={0}>Dex</Link>
+              <Link href="https://dexscreener.com/solana/8bdt3qbp6aurfythfeiz9qttxq6v3erhoawewrx9ugx1" target="_blank" rel="noopener noreferrer" className="rounded-full bg-white/10 px-3 py-1.5 text-white ring-1 ring-white/20 hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white transition-colors" aria-label="View $SEAHORSE on DexScreener" tabIndex={0}>Dex</Link>
             </nav>
           </div>
         </header>

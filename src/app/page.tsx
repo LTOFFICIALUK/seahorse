@@ -30,13 +30,16 @@ export default function Home() {
         <CopyableCA value="FFrMkJW5UXWTdGcYZCQdbQipt5cPMeHxgCRbWXAqBAGS" />
 
         <div className="mt-6 flex items-center gap-4">
-          <button
-            className="inline-flex items-center gap-2 rounded-full bg-seagreen-700 px-4 py-2 text-white font-semibold shadow hover:bg-seagreen-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-seagreen-400"
-            aria-label="Buy $SEAHORSE"
+          <Link
+            href="https://jup.ag/tokens/FFrMkJW5UXWTdGcYZCQdbQipt5cPMeHxgCRbWXAqBAGS"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-seagreen-700 px-4 py-2 text-white font-semibold shadow hover:bg-seagreen-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-seagreen-400 transition-colors"
+            aria-label="Buy $SEAHORSE on Jupiter"
           >
             <Image src="/jupiter-ag-jup-logo.png" alt="Jupiter logo" width={20} height={20} className="h-5 w-5 rounded" />
             Buy $SEAHORSE
-          </button>
+          </Link>
         </div>
 
         <div className="mt-6 flex items-center gap-6 text-seagreen-900">
