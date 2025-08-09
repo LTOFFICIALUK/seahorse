@@ -23,6 +23,10 @@ export default function Home() {
             muted
             loop
             playsInline
+            controls={false}
+            disablePictureInPicture
+            preload="auto"
+            style={{ WebkitPlaysinline: true }}
             aria-label="Seahorse animation"
           />
         </div>
