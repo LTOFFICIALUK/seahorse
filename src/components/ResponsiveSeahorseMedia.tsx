@@ -33,8 +33,8 @@ const ResponsiveSeahorseMedia: React.FC = () => {
       <Image
         src="/seahorse_visualization.gif"
         alt="Seahorse animation"
-        width={480}
-        height={480}
+        width={360}
+        height={360}
         className="h-full w-full object-cover"
         priority
         unoptimized
