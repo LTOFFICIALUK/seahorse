@@ -10,6 +10,7 @@ html, body, :root {
 
 body { 
   @apply text-gray-900 antialiased; 
+  background-color: rgb(6, 78, 59); /* seagreen-900 - initial background to match top of page */
   transition: background-color 0.1s ease-out;
 }
 
