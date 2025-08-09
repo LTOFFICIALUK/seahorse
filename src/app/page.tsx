@@ -10,7 +10,7 @@ import CopyableCA from '../components/CopyableCA'
 
 export default function Home() {
   return (
-    <main id="home" className="min-h-screen pb-24">
+    <main id="home" className="min-h-screen pb-8">
       <section className="container-screen flex flex-col items-center pt-16 text-center">
         <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-white">$SEAHORSE</h1>
 
