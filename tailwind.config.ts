@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import animate from 'tailwindcss-animate'
 
 const config: Config = {
   content: [
@@ -8,6 +9,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        // Brand greens for background and header
+        seagreen: {
+          50: '#ecfdf5',
+          100: '#d1fae5',
+          200: '#a7f3d0',
+          300: '#6ee7b7',
+          400: '#34d399',
+          500: '#10b981',
+          600: '#059669',
+          700: '#047857',
+          800: '#065f46',
+          900: '#064e3b',
+        },
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -15,6 +31,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [animate],
 }
 export default config
