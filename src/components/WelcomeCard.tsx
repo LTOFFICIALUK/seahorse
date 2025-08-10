@@ -121,7 +121,7 @@ export const WelcomeCard: React.FC<WelcomeCardProps> = ({ id = 'lore' }) => {
                   Don your fins and join the meme‑powered revolution. With Andrew Shaman at the helm, the Seahorse Meme Coin
                   isn&#39;t just a token—it&#39;s a movement. Are you ready to ride the tide?
                 </p>
-                <div className="mt-4 flex items-center justify-center gap-6 text-seagreen-900">
+                <div className="mt-8 flex items-center justify-center gap-6 text-seagreen-900">
                   <Link href="https://discord.gg/wnT6eE24Uq" target="_blank" rel="noopener noreferrer" aria-label="Discord" tabIndex={0} className="transition-opacity hover:opacity-75"><FaDiscord className="h-6 w-6" /></Link>
                   <Link href="https://x.com/Seahorse_Coin" target="_blank" rel="noopener noreferrer" aria-label="X" tabIndex={0} className="transition-opacity hover:opacity-75"><FaXTwitter className="h-6 w-6" /></Link>
                   <Link href="https://t.me/seahorseshaman" target="_blank" rel="noopener noreferrer" aria-label="Telegram" tabIndex={0} className="transition-opacity hover:opacity-75"><FaTelegram className="h-6 w-6" /></Link>
@@ -159,7 +159,7 @@ export const WelcomeCard: React.FC<WelcomeCardProps> = ({ id = 'lore' }) => {
 
               <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-seagreen-900/90">
                 The truth behind $SEAHORSE isn't just about marine life, it's about Andrew Shaman's legendary
-                <strong> electric dab pen called "Seahorse" that became a meme icon through 10+ years of streaming.</strong>
+                <strong> electric dab pen called "Seahorse"</strong> that became a meme icon on Andrew's stream.
               </p>
             </div>
 
@@ -167,9 +167,9 @@ export const WelcomeCard: React.FC<WelcomeCardProps> = ({ id = 'lore' }) => {
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-seagreen-900">🔥 The Famous Seahorse Pen</h3>
                 <p className="mx-auto mt-2 max-w-prose leading-relaxed">
-                  For over a decade, Andrew has been hitting his trusty electric dab pen—aptly named "Seahorse"—on stream. 
-                  This iconic device became synonymous with his legendary streaming sessions, creating countless memes and 
-                  unforgettable moments that defined an entire era of content creation.
+                For over a decade, Andrew has been hitting his trusty dab pen named "Seahorse" on stream. This 
+                iconic device became synonymous with his legendary streaming sessions, creating countless clips, 
+                memes and unforgettable moments.
                 </p>
               </div>
 
@@ -178,16 +178,16 @@ export const WelcomeCard: React.FC<WelcomeCardProps> = ({ id = 'lore' }) => {
                 <p className="mx-auto mt-2 max-w-prose leading-relaxed">
                   From the early days of content creation to becoming a Solana wizard, Andrew's journey has been fueled 
                   by his community and that famous pen. Through market crashes, bull runs, and everything in between, 
-                  the Seahorse pen has been there—creating moments that turned into legends.
+                  the Seahorse pen has been there, creating moments that turned into legends.
                 </p>
               </div>
 
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-seagreen-900">🌿 Community Built on Vibes</h3>
                 <p className="mx-auto mt-2 max-w-prose leading-relaxed">
-                  The Seahorse community isn't just about crypto—it's about the culture, the dabs, and the genuine 
-                  connections formed over years of shared experiences. When you hold $SEAHORSE, you're not just holding 
-                  a token; you're part of a decade-long journey of authenticity and good vibes.
+                The Seahorse community isn't just about crypto. It's about the culture, the dabs, and the genuine 
+                  connections formed over years of shared experiences. When you buy and hold $SEAHORSE, you're not just holding 
+                  a token; you're becoming part of the community.
                 </p>
               </div>
 
@@ -196,8 +196,7 @@ export const WelcomeCard: React.FC<WelcomeCardProps> = ({ id = 'lore' }) => {
                 <p className="mx-auto mt-2 max-w-prose leading-relaxed">
                   Every great meme coin has an origin story. Ours involves countless stream highlights, legendary dab 
                   sessions, and a community that recognized the cultural significance of Andrew's Seahorse pen. 
-                  This isn't manufactured hype—it's organic culture that evolved over years of streaming.
-                </p>
+                  This is organic culture that evolved over years of streaming.                </p>
               </div>
 
               <div className="text-center">
@@ -205,9 +204,10 @@ export const WelcomeCard: React.FC<WelcomeCardProps> = ({ id = 'lore' }) => {
                 <p className="mx-auto mt-2 max-w-prose leading-relaxed">
                   When the community decided to honor this legend with a token, it wasn't just about creating another 
                   meme coin. It was about immortalizing a piece of streaming history and giving Andrew the recognition 
-                  he deserves for building something truly authentic in the crypto space.
-                </p>
-                <div className="mt-4 flex items-center justify-center gap-6 text-seagreen-900">
+                  he deserves for building something truly authentic in the crypto space. Andrew was the dev of the PumpFun 
+                  version of $SEAHORSE that launched in December 2024 and skyrocketed to $20M market cap.
+                  </p>
+                <div className="mt-8 flex items-center justify-center gap-6 text-seagreen-900">
                   <Link href="https://discord.gg/wnT6eE24Uq" target="_blank" rel="noopener noreferrer" aria-label="Discord" tabIndex={0} className="transition-opacity hover:opacity-75"><FaDiscord className="h-6 w-6" /></Link>
                   <Link href="https://x.com/Seahorse_Coin" target="_blank" rel="noopener noreferrer" aria-label="X" tabIndex={0} className="transition-opacity hover:opacity-75"><FaXTwitter className="h-6 w-6" /></Link>
                   <Link href="https://t.me/seahorseshaman" target="_blank" rel="noopener noreferrer" aria-label="Telegram" tabIndex={0} className="transition-opacity hover:opacity-75"><FaTelegram className="h-6 w-6" /></Link>
